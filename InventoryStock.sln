@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36127.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryStock", "InventoryStock.csproj", "{3CBD043E-3225-A641-8EBF-2AD9E73C61DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryStock.Test", "..\InventoryStock.Test\InventoryStock.Test.csproj", "{06188004-C959-437E-8DA2-7E4564A5C8F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CBD043E-3225-A641-8EBF-2AD9E73C61DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBD043E-3225-A641-8EBF-2AD9E73C61DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CBD043E-3225-A641-8EBF-2AD9E73C61DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CBD043E-3225-A641-8EBF-2AD9E73C61DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06188004-C959-437E-8DA2-7E4564A5C8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06188004-C959-437E-8DA2-7E4564A5C8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06188004-C959-437E-8DA2-7E4564A5C8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06188004-C959-437E-8DA2-7E4564A5C8F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B2E7F62-D83D-4A80-A082-993D17B31B9D}
+	EndGlobalSection
+EndGlobal
