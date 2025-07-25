@@ -28,18 +28,21 @@ This is a .NET 8 Minimal API project designed for managing product inventory. Th
 ##  Project Structure
 
 ```bash
-InventoryStock/
-├── InventoryStock/         # Main API project
-│   └── Program.cs          # All minimal APIs and configuration
-│   └── appsettings.json    # Contains DB connection string
-│   └── ProductList.cs      # Product model
-│   └── AppDbContext.cs     # EF Core DB context
+C:\Users\durga.p.chodipindi\
+│
+├── InventoryStock/             # Main API project
+│   ├── Program.cs              # All minimal APIs and configuration
+│   ├── appsettings.json        # Contains DB connection string
+│   ├── appsettings.Development.json
+│   ├── InventoryStock.csproj   # API project file
+│   ├── InventoryStock.sln      # Solution file
+│   ├── ProductList.cs          # Product model
+│   ├── AppDbContext.cs         # EF Core DB context
 │   └── AppDbContextFactory.cs
 │
-├── InventoryStock.Test/    # Test project using xUnit
-│   └── ProductApiTests.cs
-│
-└── InventoryStock.sln      # Solution file
+└── InventoryStock.Test/        # Test project using xUnit
+    ├── ProductApiTests.cs
+    └── InventoryStock.Test.csproj
 ```
 
 ---
