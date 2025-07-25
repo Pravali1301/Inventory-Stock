@@ -64,6 +64,7 @@ C:\Users\durga.p.chodipindi\
 ```bash
 git clone https://github.com/Pravali1301/Inventory-Stock.git
 cd Inventory-Stock
+Move the InventoryStock.Test Folder as shown in project structure. 
 ```
 
 2. **Configure SQL Server connection string**
